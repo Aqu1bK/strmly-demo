@@ -9,7 +9,7 @@ const FeedPage = () => {
   useEffect(() => {
     const fetchVideos = async () => {
       try {
-        const { data } = await axios.get('http://localhost:5000/api/videos');
+        const { data } = await axios.get('https://strmly-backend.onrender.com/api/videos');
         setVideos(data);
         setLoading(false);
       } catch (err) {

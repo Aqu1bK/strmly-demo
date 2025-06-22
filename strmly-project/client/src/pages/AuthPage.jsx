@@ -18,8 +18,8 @@ const AuthPage = () => {
     
     try {
       const url = isLogin 
-        ? 'http://localhost:5000/api/auth/login' 
-        : 'http://localhost:5000/api/auth/signup';
+        ? 'https://strmly-backend.onrender.com/api/auth/login' 
+        : 'https://strmly-backend.onrender.com/api/auth/signup';
       
       const { data } = await axios.post(url, formData);
       localStorage.setItem('token', data.token);

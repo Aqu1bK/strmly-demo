@@ -39,7 +39,7 @@ A video sharing platform backend with user authentication and video upload capab
 
 ```bash
 # Clone repository
-git clone https://github.com/Aqu1bK/strmly-backend.git
+git clone https://github.com/Aqu1bK/strmly-demo.git
 cd strmly-backend
 
 # Install dependencies

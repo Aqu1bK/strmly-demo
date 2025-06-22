@@ -28,7 +28,7 @@ const UploadPage = () => {
       
       const token = localStorage.getItem('token');
       
-      await axios.post('http://localhost:5000/api/videos/upload', formData, {
+      await axios.post('https://strmly-backend.onrender.com/api/videos/upload', formData, {
         headers: {
           'Authorization': `Bearer ${token}`,
           'Content-Type': 'multipart/form-data'
